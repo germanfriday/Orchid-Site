@@ -1,0 +1,311 @@
+#main
+{
+	position: absolute;
+	left: 110px;
+	top: 30px;
+	height: 540px;
+	width: 780px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+body
+{
+	margin: 0;	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.1em;
+	color: #036;
+	background-color: #FFF;
+}
+
+h1 { font-size: 1.1em; }
+
+h2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: -.8em;
+}
+
+a.sim
+{
+	text-decoration: none;
+	color: #939;
+	font-weight: bold;
+}
+
+a.sim:link, a.sim:visited, a.sim:active { color: #939; }
+
+a.sim:hover
+{
+	color: #939;
+	text-decoration: underline;
+}
+
+p { font-size: .9em; }
+
+#logo
+{
+	position: absolute;
+	top: 30px;
+	height: 88px;
+	width: 780px;
+}
+
+#woman
+{
+	position: absolute;
+	top: 95px;
+	left: 500px;
+}
+
+#BIPSlogo
+{
+	position: absolute;
+	top: -2px;
+	left: 540px;
+	height: 80px;
+	width: 200px;
+}
+
+#content
+{
+	position: absolute;
+	top: 116px;
+	left: -3px;
+	height: 420px;
+	width: 410px;
+	margin: 0px 0px 0px 0px;
+	padding: 30px 50px 0px 46px;
+}
+
+#navbar
+{
+	position: absolute;
+	height: 30px;
+	width: 500px;
+	background-color: #0e4d81;
+	white-space: nowrap;
+	display: inline;
+	text-align: center;
+}
+
+#navbar ul
+{
+	margin: 0px;
+	padding: 0px 0px 0px 0px;	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #9FF;
+	line-height: 30px;
+	white-space: nowrap;
+	text-align: center;
+}
+
+#navbar li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navbar li a
+{
+	text-decoration: none;
+	padding: 7px 10px;
+	color: #FFF;
+}
+
+#navbar li a:link { color: #FFF; }
+#navbar li a:visited { color: #FFF; }
+
+#navbar li a:hover
+{
+	font-weight: bold;
+	color: #FFF;
+}
+
+#navbar li a:active { color: #FFF; }
+
+body#aboutus a#aboutusnav,
+body#services a#servicesnav,
+body#products a#productsnav,
+body#specials a#specialsnav,
+body#contact a#contactnav
+{
+	font-weight: bold;
+	color: #ba84b6;
+}
+
+#subnav
+{
+	position: absolute;
+	top: 500px;
+	right: 0px;
+	width: 280px;
+	text-align: center;
+	white-space: nowrap;
+	display: inline;
+}
+
+#subnav ul
+{
+	margin: 0px;
+	padding: 0px 0px 0px 0px;	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	white-space: nowrap;
+}
+
+#subnav li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#subnav li a
+{
+	text-decoration: none;
+	padding: 0px 6px;
+	color: #036;
+}
+
+#stuff
+{
+	float: left;
+	clear: none;
+	margin-bottom: 26px;
+}
+
+#stuff ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 195px;
+	/* Width of Menu Items */
+}
+
+/* Styles for Menu Items */
+#stuff ul li a
+{
+	display: block;
+	text-decoration: none;
+	color: #125b5b;
+	padding: 5px;
+}
+
+#stuff ul li a:hover { color: #036; }
+
+/* Hover Styles */
+#stuff a.menu-active
+{
+	font-weight: bold;
+	padding: 4px;
+	color: #036;
+	border: 1px solid #0e4d81;
+}
+
+#stuff li.info
+{
+	font-size: .8em;
+	padding-top: 10px;
+}
+
+#stufflist
+{
+	float: left;
+	clear: none;
+	border: 1px solid #0e4d81;
+	margin-left: 5px;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 5px;
+}
+#stufflist a.menu-active
+{
+	font-weight: bold;
+	color: #036;
+
+}
+
+#stufflist ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 195px;
+	/* Width of Menu Items */
+}
+
+/* Styles for Menu Items */
+#stufflist ul li a
+{
+	display: block;
+	text-decoration: none;
+	color: #125b5b;
+	background: #fff;
+	/* IE6 Bug */
+	border: none;
+	/* IE6 Bug */
+}
+
+#stufflist ul li a:hover { color: #036; }
+
+/* Hover Styles */
+label
+{
+	width: 8em;
+	float: left;
+	text-align: right;
+	margin: 0px 1em 2px 0px;
+	clear: both;
+	font-size: .9em;
+}
+#stuffdescription
+{
+	border-top: 1px solid #0e4d81;
+
+
+	clear: both;
+	padding: 5px;
+	font-size: 1.05em;
+	line-height: 1.2em;
+}
+#stuffdescription h4
+{   margin-top: .2em;
+}
+
+.input-box { margin-bottom: 2px; }
+.submit-button { clear: both; }
+#guinot { padding: 20px; }
+#guinot a { color: #036; }
+
+
+.specialHeader
+{
+	font-weight: bold;
+	color: #000000 ;
+	font-size:16px;
+}
+
+.specials
+{
+	font-style: italic;
+	color: #ff0000 ;
+	font-size: 16px ;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	line-height:20px;
+}
+
+.specialFooter
+{
+	font-weight: bold;
+	font-style: italic;
+	color:#001276;
+	font-size:12px;
+	line-height:14px;
+}
